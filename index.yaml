@@ -1,0 +1,199 @@
+apiVersion: v1
+entries:
+  dex:
+  - apiVersion: v1
+    appVersion: v2.14.0
+    created: 2019-01-30T09:26:29.091503726Z
+    description: OpenID Connect Identity (OIDC) and OAuth 2.0 Provider
+    digest: e01012683331ccb69ee7effbd7f35d73556a917cee2f533e5a907d34b8521481
+    engine: gotpl
+    home: https://github.com/dexidp/dex
+    icon: https://raw.githubusercontent.com/dexidp/dex/master/Documentation/logos/dex-glyph-color.png
+    keywords:
+    - authentication
+    - authorization
+    - idp
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: dex
+    urls:
+    - dex-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: v2.14.0
+    created: 2019-01-30T09:26:29.091010708Z
+    description: OpenID Connect Identity (OIDC) and OAuth 2.0 Provider
+    digest: 9238aefe51b0bfa033efb851853cbef920dcb8feacac31dd54e4cf5d8704af02
+    name: dex
+    urls:
+    - dex-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: v2.14.0
+    created: 2019-01-30T09:26:29.090662772Z
+    description: OpenID Connect Identity (OIDC) and OAuth 2.0 Provider
+    digest: 3b77cb6c6ebd9b717711f9705acb59130184a636446f69a779db24f66d11f844
+    name: dex
+    urls:
+    - dex-1.0.0.tgz
+    version: 1.0.0
+  imagepullsecrets:
+  - apiVersion: v1
+    created: 2019-01-30T09:26:29.093637203Z
+    description: Declarative configuration for imagepullsecrets
+    digest: 334f05faf4ecb1537add00ad23859e16c7ae18a1513a218ae2c31379a19a5936
+    engine: gotpl
+    keywords:
+    - authentication
+    - secrets
+    - docker-registry
+    - imagepullsecrets
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: imagepullsecrets
+    urls:
+    - imagepullsecrets-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    created: 2019-01-30T09:26:29.093162105Z
+    description: Declarative configuration for imagepullsecrets
+    digest: 03a52259afcd628a5d2a912089b287f3f059445f258d34e07976cc2d351a3aa5
+    engine: gotpl
+    keywords:
+    - authentication
+    - secrets
+    - docker-registry
+    - imagepullsecrets
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: imagepullsecrets
+    urls:
+    - imagepullsecrets-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    created: 2019-01-30T09:26:29.092689976Z
+    description: Declarative configuration for imagepullsecrets
+    digest: 4c1d621be3877615d4f0acd9c16935953c21f525807b018fafa77d23c0fbc270
+    engine: gotpl
+    keywords:
+    - authentication
+    - secrets
+    - docker-registry
+    - imagepullsecrets
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: imagepullsecrets
+    urls:
+    - imagepullsecrets-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    created: 2019-01-30T09:26:29.092254824Z
+    description: Declarative configuration for imagepullsecrets
+    digest: 71fde40ea17183b011ef6d63fc28eebfc1fbd3a0b2cc269a67e835e16755d99d
+    engine: gotpl
+    keywords:
+    - authentication
+    - secrets
+    - docker-registry
+    - imagepullsecrets
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: imagepullsecrets
+    urls:
+    - imagepullsecrets-1.0.0.tgz
+    version: 1.0.0
+  keycloak-gatekeeper:
+  - apiVersion: v1
+    appVersion: 4.6.0.Final
+    created: 2019-01-30T09:26:29.096113568Z
+    description: Keycloak gatekeeper
+    digest: 1bb05d87a0b69a1ad07b3f57e864408ea0a555acdc84ffb79d6b9dc7bce1c0e4
+    engine: gotpl
+    home: https://github.com/keycloak/keycloak-gatekeeper
+    icon: https://raw.githubusercontent.com/keycloak/keycloak-misc/master/logo/keycloak_logo_600px.png
+    keywords:
+    - authentication
+    - authorization
+    - keycloak
+    - proxy
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: keycloak-gatekeeper
+    urls:
+    - keycloak-gatekeeper-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 4.6.0.Final
+    created: 2019-01-30T09:26:29.095341743Z
+    description: Keycloak gatekeeper
+    digest: 6f6a9b147966497b653e11015c80a841bd8cbef88a9afcc423a022cd16209460
+    engine: gotpl
+    home: https://github.com/keycloak/keycloak-gatekeeper
+    icon: https://raw.githubusercontent.com/keycloak/keycloak-misc/master/logo/keycloak_logo_600px.png
+    keywords:
+    - authentication
+    - authorization
+    - keycloak
+    - proxy
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: keycloak-gatekeeper
+    urls:
+    - keycloak-gatekeeper-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 4.6.0.Final
+    created: 2019-01-30T09:26:29.094387979Z
+    description: Keycloak gatekeeper
+    digest: 6699d43fa9104793a16280234d8dd1dc3085a2895472684d0aacd0abe710dfb1
+    engine: gotpl
+    home: https://github.com/keycloak/keycloak-gatekeeper
+    keywords:
+    - authentication
+    - authorization
+    - keycloak
+    - proxy
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: keycloak-gatekeeper
+    urls:
+    - keycloak-gatekeeper-1.0.0.tgz
+    version: 1.0.0
+  kuberos:
+  - apiVersion: v1
+    appVersion: 7bc1e72
+    created: 2019-01-30T09:26:29.097257823Z
+    description: OIDC authentication helper for Kubernetes
+    digest: c15fdbf44a0f5a2d52babaf2c4f8456e7d80451a134352d6de8919267be59eb4
+    name: kuberos
+    urls:
+    - kuberos-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 7bc1e72
+    created: 2019-01-30T09:26:29.096709023Z
+    description: OIDC authentication helper for Kubernetes
+    digest: 020c1b3ad3352c112e4419c61a5991a18d331400ae146215e521e54bc50ee9b2
+    name: kuberos
+    urls:
+    - kuberos-1.0.0.tgz
+    version: 1.0.0
+  periodic-daemonset:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-01-30T09:26:29.097630915Z
+    description: Periodically run a job
+    digest: 3110a1df93423d1da675ca8c688f02475ee965adddbf58a10bfed64d2f6968af
+    name: periodic-daemonset
+    urls:
+    - periodic-daemonset-1.0.0.tgz
+    version: 1.0.0
+generated: 2019-01-30T09:26:29.090148171Z
